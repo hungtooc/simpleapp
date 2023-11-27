@@ -10,7 +10,7 @@ import { Canvas, Fill } from '@shopify/react-native-skia';
 function App(): JSX.Element {
 
   return (
-    <Canvas style={{ flex: 1 }}>
+    <Canvas style={{ flex: 1 }}> 
       <Fill color={'red'} />
     </Canvas>
   );
